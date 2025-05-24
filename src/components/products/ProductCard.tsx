@@ -44,7 +44,7 @@ function ProductCard({ product }: ProductCardProps) {
 
   const handleWhatsAppOrder = useCallback(() => {
     window.open(
-      `https://wa.me/201234567890?text=I want to order: ${product.name}`,
+      `https://wa.me/201111359219?text=I want to order: ${product.name}`,
       "_blank"
     );
   }, [product.name]);
